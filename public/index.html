@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#002970">
+  <title>Flex — Research to product</title>
+  <meta name="description" content="The research, product strategy and functional prototype behind Flex financial decision support.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23002970'/%3E%3Ccircle cx='32' cy='32' r='15' fill='%2300baf2'/%3E%3Cpath d='M24 34c3 6 13 6 16 0' fill='none' stroke='white' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/landing.css">
+  <link rel="stylesheet" href="/agent-story.css">
+  <link rel="stylesheet" href="/research-library.css">
+</head>
+<body>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Flex research home">fle<span>x</span><i></i></a>
+    <nav aria-label="Research navigation">
+      <a href="#problem">Problem</a><a href="#research-signals">Market</a><a href="#people">People</a><a href="#prototype">Prototype</a>
+    </nav>
+    <a class="nav-cta" href="/prototype.html">Open prototype</a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <div class="status-line"><span>PRODUCT RESEARCH</span><b>Functional prototype</b><b>India · 2026</b></div>
+        <h1>Money apps explain the past.<br><em>Flex explores the next choice.</em></h1>
+        <p class="hero-lede">A financial flexibility layer for salaried young professionals—built to show how a prospective expense may change savings, while protecting the priorities only the user can define.</p>
+        <div class="hero-actions"><a class="button primary" href="#prototype">Explore the prototype</a><a class="button quiet" href="#problem">Read the research</a></div>
+        <p class="honesty"><i></i> Technical feasibility demonstrated. Desirability and product-market fit remain hypotheses to test.</p>
+      </div>
+      <div class="hero-visual reveal" aria-label="From transaction history to a future choice">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="choice-card card-back"><span>LAST MONTH</span><strong>₹37,400</strong><small>tracked spending</small></div>
+        <div class="choice-card card-front"><div class="mini-face"><i></i><i></i><b></b></div><span>WHAT IF?</span><strong>₹16,000</strong><small>projected savings after Goa</small><div class="mini-track"><i></i></div></div>
+        <div class="float-dot dot-a"></div><div class="float-dot dot-b"></div><div class="float-dot dot-c"></div>
+      </div>
+    </section>
+
+    <section class="research-library section-shell" id="research-library">
+      <div class="section-kicker reveal"><span>RESEARCH LIBRARY</span><h2>The evidence is here when you need it.</h2><p>The main page stays focused on the product. Open any topic for the research, reasoning and assumptions behind it.</p></div>
+      <div class="research-buttons reveal">
+        <button type="button" data-research-topic="problem"><i>01</i><span><b>Problem</b><small>Why this matters</small></span></button>
+        <button type="button" data-research-topic="whitespace"><i>02</i><span><b>Whitespace & flow</b><small>Where Flex fits</small></span></button>
+        <button type="button" data-research-topic="personas"><i>03</i><span><b>Personas</b><small>Who would use it</small></span></button>
+        <button type="button" data-research-topic="market"><i>04</i><span><b>Market & competition</b><small>Scale and differentiation</small></span></button>
+        <button type="button" data-research-topic="architecture"><i>05</i><span><b>AI & guardrails</b><small>How it stays reliable</small></span></button>
+        <button type="button" data-research-topic="future"><i>06</i><span><b>Risks & future</b><small>What must be tested</small></span></button>
+      </div>
+    </section>
+
+    <section class="problem section-shell secondary-detail" id="problem">
+      <div class="section-kicker reveal"><span>01 · THE PROBLEM</span><h2>The decision happens before the transaction.</h2><p>Most financial interfaces become useful after money moves. The unresolved moment is earlier: “If I choose this, what changes?”</p></div>
+      <div class="problem-grid">
+        <article class="problem-card reveal"><span class="number">01</span><h3>History is retrospective</h3><p>Statements and spend summaries categorize what already happened. They help reflection, but the next choice still requires mental arithmetic.</p></article>
+        <article class="problem-card reveal"><span class="number">02</span><h3>Budgets flatten priorities</h3><p>A generic “cut discretionary spend” response can ignore what matters: dinners with friends, family support, commute or health.</p></article>
+        <article class="problem-card reveal"><span class="number">03</span><h3>Advice can overreach</h3><p>Prescriptive AI can sound certain despite incomplete data. Users need consequences and assumptions, then retain the decision.</p></article>
+      </div>
+      <div class="whitespace reveal">
+        <div class="whitespace-head"><span>THE WHITESPACE</span><strong>From record keeping to decision rehearsal</strong></div>
+        <div class="journey-line">
+          <div><i>1</i><b>Pay</b><small>Complete transaction</small></div><span></span>
+          <div><i>2</i><b>Review</b><small>History & categories</small></div><span class="gap-line"><em>GAP</em></span>
+          <div class="active"><i>3</i><b>Simulate</b><small>Future impact</small></div><span></span>
+          <div class="active"><i>4</i><b>Protect</b><small>User priorities</small></div><span></span>
+          <div class="active"><i>5</i><b>Choose</b><small>Possible paths</small></div>
+        </div>
+      </div>
+      <div class="method-strip reveal">
+        <div><span>DOUBLE DIAMOND</span><b>Discover</b><small>Interviews and decision diaries</small></div>
+        <i></i><div><span>DEFINE</span><b>Decision gap</b><small>Prospective impact + priorities</small></div>
+        <i></i><div class="current"><span>DEVELOP · NOW</span><b>Functional prototype</b><small>Test comprehension and trust</small></div>
+        <i></i><div><span>DELIVER · GATED</span><b>Private pilot</b><small>Proceed after desirability evidence</small></div>
+      </div>
+    </section>
+
+    <section class="signals secondary-detail" id="research-signals">
+      <div class="section-shell">
+        <div class="section-kicker light reveal"><span>02 · RESEARCH SIGNALS</span><h2>A large payment habit. A smaller, testable decision layer.</h2><p>These numbers establish ecosystem scale and a possible distribution path. They do not establish demand for Flex.</p></div>
+        <div class="signal-grid">
+          <article class="signal-card reveal"><span>UPI · AUG 2026</span><strong data-count="24.5">0</strong><b>billion transactions</b><p>₹29.82 lakh crore in monthly value across 752 live banks.</p><a href="https://www.npci.org.in/product/upi/product-statistics" target="_blank" rel="noreferrer">NPCI source</a></article>
+          <article class="signal-card reveal"><span>PAYTM · Q4 FY26</span><strong data-count="7.7">0</strong><b>crore MTU</b><p>Paytm reported 7.7 crore monthly transacting users and growing consumer UPI engagement.</p><a href="https://paytm.com/support/investor-relations/paytm-fy-2026-results-full-year-profitability-with-pat-at-552-cr-revenue-grows-to-8437-cr" target="_blank" rel="noreferrer">Paytm source</a></article>
+          <article class="signal-card reveal"><span>VISIBLE CATEGORY</span><strong>Past</strong><b>spend is organized</b><p>Paytm Spend Summary categorizes payments into areas such as shopping, entertainment and groceries.</p><a href="https://paytm.com/blog/payment-gateway/paytm-spend-summary-a-simple-way-to-understand-your-spending/" target="_blank" rel="noreferrer">Paytm Spend source</a></article>
+        </div>
+        <div class="market-model reveal">
+          <div><span class="label">MARKET-SIZE SCENARIO</span><h3>A transparent distribution hypothesis</h3><p>Use Paytm’s reported MTU only as a reach proxy. The actual serviceable market is the unmeasured subset with a savings goal and recurring spending decisions.</p></div>
+          <div class="market-funnel">
+            <div><b>7.7 crore</b><small>Reach proxy</small></div><i></i><div><b>1%</b><small>Illustrative paid conversion</small></div><i></i><div class="market-result"><b>₹91.5 crore</b><small>Illustrative annual revenue at ₹99/month</small></div>
+          </div>
+          <p class="source-note">Scenario, not forecast: 7.7 lakh hypothetical subscribers × ₹99 × 12. Validate target incidence, willingness to pay and retention before using this as a market claim.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="people section-shell secondary-detail" id="people">
+      <div class="section-kicker reveal"><span>03 · PEOPLE & MOMENTS</span><h2>One engine, different definitions of “what matters.”</h2><p>These are research personas built from hypotheses. They guide usability cases; interviews must validate their prevalence and language.</p></div>
+      <div class="persona-layout reveal">
+        <div class="persona-tabs" role="tablist" aria-label="Research personas">
+          <button class="active" role="tab" aria-selected="true" data-persona="aarav"><span>A</span><b>Aarav</b><small>First big choices</small></button>
+          <button role="tab" aria-selected="false" data-persona="meera"><span>M</span><b>Meera</b><small>Many commitments</small></button>
+          <button role="tab" aria-selected="false" data-persona="kabir"><span>K</span><b>Kabir</b><small>Irregular rhythm</small></button>
+        </div>
+        <article class="persona-card" id="personaCard" aria-live="polite"></article>
+      </div>
+      <div class="flow-cases reveal">
+        <div class="flow-top"><div><span class="label">TEST THE EXPERIENCE</span><h3>Five cases reveal where trust breaks.</h3></div><div class="case-buttons" id="caseButtons"></div></div>
+        <article class="case-panel" id="casePanel" aria-live="polite"></article>
+      </div>
+    </section>
+
+    <section class="opportunity secondary-detail" id="opportunity">
+      <div class="section-shell">
+        <div class="section-kicker light reveal"><span>04 · OPPORTUNITY HORIZONS</span><h2>Build trust before breadth.</h2><p>The roadmap is organized by evidence and dependency, not feature excitement.</p></div>
+        <div class="horizon-nav reveal" role="tablist" aria-label="Opportunity horizons">
+          <button class="active" data-horizon="critical">Critical</button><button data-horizon="significant">Significant</button><button data-horizon="emerging">Emerging</button><button data-horizon="futuristic">Futuristic</button>
+        </div>
+        <div class="horizon-panel reveal" id="horizonPanel"></div>
+      </div>
+    </section>
+
+    <section class="competition section-shell secondary-detail">
+      <div class="section-kicker reveal"><span>05 · COMPETITIVE SPACE</span><h2>The category is crowded. The decision moment is less occupied.</h2><p>This map compares product archetypes by their primary public use case. It is a research aid, not a definitive feature audit.</p></div>
+      <div class="competitive-layout">
+        <div class="map reveal" aria-label="Competitive positioning map">
+          <span class="axis y-top">Decision support</span><span class="axis y-bottom">Passive record</span><span class="axis x-left">Past</span><span class="axis x-right">Future</span>
+          <i class="map-line vertical"></i><i class="map-line horizontal"></i>
+          <div class="competitor p-paytm"><b>Paytm Spend</b><small>categorised history</small></div>
+          <div class="competitor p-split"><b>Splitwise</b><small>shared reconciliation</small></div>
+          <div class="competitor p-budget"><b>Budgeting apps</b><small>plans & alerts</small></div>
+          <div class="competitor p-advice"><b>Financial advice</b><small>prescriptive guidance</small></div>
+          <div class="competitor p-flex"><i></i><b>Flex</b><small>choice simulation</small></div>
+        </div>
+        <div class="difference-list reveal">
+          <article><span>01</span><div><h3>Prospective, not only retrospective</h3><p>Starts with a contemplated expense and computes the effect before money moves.</p></div></article>
+          <article><span>02</span><div><h3>Priorities are explicit inputs</h3><p>The user protects categories. The system does not silently decide which parts of life matter less.</p></div></article>
+          <article><span>03</span><div><h3>AI interprets; code calculates</h3><p>Gemini structures intent. A deterministic engine owns every financial number shown.</p></div></article>
+          <article><span>04</span><div><h3>Paths without prescription</h3><p>Unranked consequences preserve user agency and reduce the risk of drifting into regulated advice.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="agent-story secondary-detail" id="agent-story">
+      <div class="section-shell">
+        <div class="section-kicker light reveal"><span>06 · BEYOND A SPREADSHEET</span><h2>Calculations are necessary. The decision loop is the product.</h2><p>Excel can subtract an expense from savings. Flex connects future commitments, remembers user-approved priorities, prepares scenarios and returns later to compare the projection with reality.</p></div>
+        <div class="excel-test reveal">
+          <article><span>SPREADSHEET</span><h3>The user builds and maintains the model</h3><ul><li>Enter and update every assumption</li><li>Design formulas and conflict checks</li><li>Remember why a choice mattered</li><li>Return manually to compare outcomes</li></ul></article>
+          <div class="versus-dot" aria-hidden="true"><i></i><b></b></div>
+          <article class="flex-side"><span>● MEET DOT</span><h3>Your decision companion prepares the review</h3><ul><li>Connects choices across payday cycles</li><li>Protects personal red lines</li><li>Surfaces material changes quietly</li><li>Learns only from approved reflections</li></ul></article>
+        </div>
+        <div class="agent-lab reveal">
+          <div class="agent-lab-controls"><span>INTERACTIVE DOT SCENARIOS</span><h3>Trigger a decision moment</h3><p>Each case demonstrates a different reason for Dot to appear.</p><div id="landingAgentScenarios"><button class="active" data-landing-agent="goa">Goa + insurance</button><button data-landing-agent="laptop">Laptop timing</button><button data-landing-agent="wedding">Two weddings</button><button data-landing-agent="repair">Urgent repair</button></div></div>
+          <div class="agent-lab-output" id="landingAgentOutput"><div class="lab-status"><span>DOT NOTICED</span><b>Medium confidence</b></div><h3>Goa and insurance share one payday cycle</h3><p>Two future commitments reduce the same monthly flexibility. Dot prepared three unranked timelines without changing the plan.</p><div class="lab-chain"><span>Goa · ₹20k</span><i></i><span>Insurance · ₹18k</span><i></i><span>Dining protected</span></div><div class="lab-actions"><button type="button">See possible timelines</button><small>Prepared for review · no money moves</small></div></div>
+        </div>
+        <div class="agent-loop reveal"><article><span>01</span><b>Explore</b><small>Ask about one choice</small></article><i></i><article><span>02</span><b>Compare</b><small>See what could happen</small></article><i></i><article><span>03</span><b>Save</b><small>Keep a choice in mind</small></article><i></i><article><span>04</span><b>Dot checks</b><small>Notice an important change</small></article><i></i><article><span>05</span><b>You decide</b><small>Approve, adjust or dismiss</small></article></div>
+        <div class="dot-story-grid reveal"><article class="dot-character-story"><div class="story-dot"><i></i><i></i><b></b></div><span>MEET DOT</span><h3>Tap, speak and hear the impact</h3><p>Tap the floating Dot to speak or type a question. Dot gives a short calculation-based answer, reads it aloud and opens the full comparison only when the user asks.</p><div><b>Happy · clear</b><b>Curious · ask</b><b>Alert · review</b></div></article><article class="persona-adaptation"><span>PERSONA ADAPTATION</span><h3>The same product protects different lives</h3><div><b>Aarav</b><small>First big choices · social time and family support</small></div><div><b>Meera</b><small>Many commitments · parents, health and household help</small></div><div><b>Kabir</b><small>Irregular rhythm · rent, learning and transport</small></div></article><article class="reward-principle"><span>VARIABLE REWARDS</span><h3>Surprise with understanding, not spending</h3><ul><li>A newly connected decision</li><li>A calmer payday window</li><li>A corrected assumption</li><li>A projection that matched reality</li></ul><p>No coins for purchases. No guilt streaks. The reward is a useful discovery.</p></article></div>
+        <div class="control-story reveal"><article><span>USER CONTROL</span><h3>Protect fully or define exactly how far something may flex</h3><p>The user sets a minimum to keep. Dot can suggest a starting point from income rhythm, commitments and stated priorities, but cannot silently lower it.</p><div class="control-scale"><b>Protected</b><i></i><b>Limited flex</b><i></i><b>Flexible</b></div></article><article><span>YEARLY LIFE GOALS</span><h3>“How much should I save for my brother’s wedding?”</h3><p>Flex translates the target and deadline into a monthly pace, shows the likely gap and prepares paths that respect the user’s guardrails.</p><div class="goal-example"><strong>₹3L target</strong><b>₹40k/month needed</b><small>Example: ₹1.8L already saved · December deadline</small></div></article></div>
+      </div>
+    </section>
+
+    <section class="prototype" id="prototype">
+      <div class="section-shell">
+        <div class="prototype-title reveal"><div><span>07 · RESPONSIVE PROTOTYPE</span><h2>Explore first. Dot follows up.</h2><p>Use Explore when you have a question. Save an option if it matters. Dot then watches that choice and tells you when your dates, goals or commitments change the picture.</p></div><a class="button cyan" href="/prototype.html">Launch full prototype</a></div>
+        <div class="mvp-demo secondary-demo reveal">
+          <div class="demo-controls">
+            <div class="demo-heading"><span>GUIDED MVP DEMO</span><h3>Try the core promise here</h3><p>Choose a research profile and a decision. These profiles test different financial contexts; they are not something a real user must select.</p></div>
+            <fieldset><legend>1. Choose a test profile</legend><div class="demo-options" id="demoPersonas"><button class="active" type="button" data-demo-persona="aarav">Aarav · ₹90k income</button><button type="button" data-demo-persona="meera">Meera · ₹1.35L income</button><button type="button" data-demo-persona="kabir">Kabir · ₹55k income</button></div></fieldset>
+            <fieldset><legend>2. Choose a scenario</legend><div class="demo-options scenario-options" id="demoScenarios"><button class="active" type="button" data-demo-scenario="goa" data-amount="20000">Goa trip · ₹20k</button><button type="button" data-demo-scenario="laptop" data-amount="45000">Laptop · ₹45k</button><button type="button" data-demo-scenario="repair" data-amount="8000">Urgent repair · ₹8k</button><button type="button" data-demo-scenario="celebration" data-amount="12000">Celebration · ₹12k</button></div></fieldset>
+            <label class="demo-amount">3. Adjust the expense <span id="demoAmountLabel">₹20,000</span><input id="demoAmount" type="range" min="0" max="75000" step="500" value="20000"></label>
+            <fieldset><legend>4. Protect what matters</legend><div class="protect-options"><label><input type="checkbox" value="dining" checked> Dinners with friends</label><label><input type="checkbox" value="delivery"> Food delivery</label><label><input type="checkbox" value="shopping"> Shopping</label></div></fieldset>
+            <button class="run-demo" id="runDemo" type="button">See the impact</button>
+          </div>
+          <div class="demo-result" id="demoResult" aria-live="polite"></div>
+        </div>
+        <div class="view-divider reveal"><span>ONE RESPONSIVE PRODUCT</span><p>The same working prototype is shown in desktop and mobile views.</p></div>
+        <div class="prototype-showcase reveal">
+          <aside class="demo-path-guide"><span>GUIDED DEMO PATH</span><h3>How to explore it</h3><ol><li><b>1</b><p><strong>Open Explore</strong><small>Ask about one future expense.</small></p></li><li><b>2</b><p><strong>Protect priorities</strong><small>Choose what should not be reduced.</small></p></li><li><b>3</b><p><strong>Compare options</strong><small>See the impact without a recommendation.</small></p></li><li><b>4</b><p><strong>Save a choice</strong><small>Dot follows it only when asked.</small></p></li><li><b>5</b><p><strong>Talk to Dot</strong><small>Use the floating blue dot for voice or text.</small></p></li></ol><a href="/prototype.html">Open full-screen prototype</a></aside>
+          <div class="device-stage">
+            <div class="device-wrap desktop-wrap"><div class="device-label"><b>Desktop view</b><span>Wider planning and comparison</span></div><div class="desktop-device"><div class="device-bar"><i></i><i></i><i></i><span id="prototypeHost">Flex deployment / home</span></div><iframe title="Flex desktop prototype" src="/prototype.html?embed=desktop" loading="lazy"></iframe></div></div>
+            <div class="device-wrap phone-wrap"><div class="device-label"><b>Mobile view</b><span>Fast everyday decisions</span></div><div class="phone-device"><div class="phone-speaker"></div><iframe title="Flex phone prototype" src="/prototype.html?embed=mobile" loading="lazy"></iframe><div class="phone-home"></div></div></div>
+          </div>
+        </div>
+        <p class="prototype-note">Seeded demonstration data · no real account connection · no money movement · calculations remain illustrative</p>
+      </div>
+    </section>
+
+    <section class="risks section-shell secondary-detail" id="future">
+      <div class="section-kicker reveal"><span>08 · RISK & FUTURE</span><h2>A partnership comes after proof.</h2><p>Paytm is a plausible future environment because it combines transaction context, consumer reach and an AI-led product direction. That is strategic fit—not evidence of product-market fit.</p></div>
+      <div class="risk-grid">
+        <article class="reveal"><span>DATA COMPLETENESS</span><h3>Partial history can mislead.</h3><p>Show assumptions, allow edits, display confidence, and avoid affordability claims until coverage is sufficient.</p><b>Mitigation · editable state + uncertainty</b></article>
+        <article class="reveal"><span>AI RELIABILITY</span><h3>Language models can invent.</h3><p>Restrict Gemini to structured intent. Validate its schema and let the deterministic engine calculate.</p><b>Mitigation · separation of duties</b></article>
+        <article class="reveal"><span>REGULATORY PERIMETER</span><h3>Decision support can sound like advice.</h3><p>Block investment, lending and insurance recommendations. Present unranked paths and factual consequences.</p><b>Mitigation · scope boundary + review</b></article>
+        <article class="reveal"><span>BEHAVIOURAL HARM</span><h3>Rewards can encourage spending.</h3><p>Reward learning and consistency only. Let users control reminders and never create artificial urgency.</p><b>Mitigation · ethical reward rules</b></article>
+      </div>
+      <div class="paytm-path reveal">
+        <div class="paytm-copy"><span class="label">FUTURE PAYTM HYPOTHESIS</span><h3>From Spend Summary to a pre-decision layer</h3><p>Paytm already helps users understand categorized past spending and reported 7.7 crore MTU in Q4 FY26. Flex could extend that context into a consented “See the impact” experience—only if independent research proves repeat demand and trust.</p><div class="fit-badge"><i></i><span><b>Product-market fit status</b>Not established · validation plan defined</span></div></div>
+        <ol class="validation-path">
+          <li><span>NOW</span><b>Standalone validation</b><small>Interview, usability test and measure repeat scenario use.</small></li>
+          <li><span>NEXT</span><b>Consented data import</b><small>Test whether better coverage improves trust enough to justify access.</small></li>
+          <li><span>LATER</span><b>Partner feasibility</b><small>Explore sandbox, security, legal and commercial requirements with Paytm.</small></li>
+          <li><span>GATE</span><b>Embedded pilot</b><small>Proceed only with measurable decision confidence, retention and safe outcomes.</small></li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="research-dialog" id="researchDialog">
+    <button class="research-close" id="closeResearchDialog" type="button" aria-label="Close research details">×</button>
+    <span id="researchDialogKicker">RESEARCH</span>
+    <h2 id="researchDialogTitle">Research detail</h2>
+    <div id="researchDialogBody"></div>
+  </dialog>
+
+  <footer><a class="wordmark footer-mark" href="#top">fle<span>x</span><i></i></a><p>Financial flexibility intelligence · independent research prototype</p><div><a href="/prototype.html">Prototype</a><a href="https://www.npci.org.in/product/upi/product-statistics" target="_blank" rel="noreferrer">NPCI data</a><a href="https://paytm.com/blog/payment-gateway/paytm-spend-summary-a-simple-way-to-understand-your-spending/" target="_blank" rel="noreferrer">Paytm reference</a></div></footer>
+  <script type="module" src="/landing.js"></script>
+</body>
+</html>

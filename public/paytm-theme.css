@@ -1,0 +1,35 @@
+/* Paytm-inspired navy and cyan. Flex remains an independent concept. */
+:root{--navy:#002970;--cyan:#00baf2;--ink:#102953;--muted:#586b87;--line:#dce6f1;color:var(--ink);background:#f4f8fd;font-family:Arial,Helvetica,sans-serif}
+body{background:linear-gradient(180deg,#eaf8ff 0,#f4f8fd 360px)}
+aside{background:var(--navy);color:#d7e5ff;border-right:0;padding-top:30px}
+.brand{color:white;letter-spacing:-2px}.brand span{color:var(--cyan)}.brand i{background:var(--cyan)}
+.workspace{color:#a8c2ee}.nav{border-radius:12px}.nav.active,.nav:hover{background:#10458b;color:white}.nav.active{box-shadow:inset 3px 0 var(--cyan)}
+.aside-bottom small{color:#b1c8ee}.avatar{background:#00baf2;color:#002970}
+header{border-bottom-color:#d6e4f3;color:#506783}.slash{color:#8ca1b9}
+.badge{background:#e7f7ff;border-color:#bce9fa;color:#005c83;font-size:13px}
+.small-badge{border-color:#d6e5f3;background:#f7fbff;color:#516a8b}
+h1{color:var(--navy);font-weight:750;font-size:34px;letter-spacing:-1.2px}h2,h3{color:var(--navy)}
+.eyebrow{color:#577499;letter-spacing:1.5px}p,.muted,.hint{color:var(--muted)}
+.stats article{border-color:var(--line);border-radius:16px;box-shadow:0 4px 15px #00297004;position:relative;overflow:hidden}
+.stats article:before{content:'';display:block;width:30px;height:4px;background:#d5e9fa;border-radius:3px;margin-bottom:16px}
+.stats article.accent:before{background:var(--cyan)}.metric-label{color:#566b89}.money{color:var(--navy);font-weight:700}
+.stats article>span{color:#64768e}.stats .accent{background:var(--navy);border-color:var(--navy)}.stats .accent .money{color:white}
+.stats .accent .metric-label,.stats .accent>span{color:#d2e9ff!important}
+.panel{border-color:var(--line);border-radius:18px;box-shadow:0 5px 22px #00297004}
+.simulator{border-top:4px solid var(--cyan)}.impact{background:linear-gradient(145deg,#fff 55%,#f1faff)}
+.tabs{gap:10px;padding:5px;border:0;border-radius:10px;background:#eef5fc;margin:20px 0 24px}
+.tabs button{flex:1;border-radius:7px;padding:11px 6px;color:#506b8d;font-size:14px}
+.tabs .selected{background:white;border:0;color:var(--navy);box-shadow:0 2px 7px #00297012}
+input:not([type=checkbox]):not([type=range]),textarea{border-color:#ccdceb;color:var(--ink);background:#fbfdff;border-radius:10px}
+input[type=range],input[type=checkbox]{accent-color:var(--navy)}.currency-input>span{color:#607899}.range-label{color:#637997}
+.primary{background:var(--navy);border-radius:10px;box-shadow:0 4px 10px #00297014;padding:15px}.primary:hover{background:#07418a}
+.secondary{border-color:#cbdced;color:var(--navy);border-radius:10px}.secondary:hover{background:#eef8ff;border-color:#86d5f1}
+button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible{outline-color:#0087ba}
+.impact-number{color:var(--navy);font-weight:700}.track{background:#edf4fb;height:16px;border-radius:6px}.track div{background:#a4dff5;border-radius:6px}.track #choiceBar{background:var(--cyan)}
+.goal-line{border-top-color:#9bb7d7;color:#526c8a}.insight{background:#e8f7ff;color:#194977;border-left:3px solid var(--cyan);border-radius:10px}
+.path{border-color:var(--line);border-radius:16px;box-shadow:0 3px 14px #00297003;border-top:3px solid var(--cyan)}
+.path:nth-child(2){border-top-color:var(--cyan)}.path-number{color:#47789d;letter-spacing:1.4px}.path-amount{color:var(--navy);font-weight:700}.path ul,.path .dismiss{color:#526d8e}
+.category,.transaction{border-bottom-color:#e8eff7}.category small,.transaction small{color:#657a95}.category button{color:#5a6c82;background:#f2f6fb;border-color:#dce6f2;font-size:13px}
+.category button.on{background:#e1f5ff;border-color:#b4e6f7;color:#005578}.category button:hover:not(:disabled){border-color:var(--cyan)}.transaction .positive{color:#126747}
+footer{border-color:#d4e2f0}footer strong{color:var(--navy)}#storageNote{color:#637791}#toast{background:var(--navy);box-shadow:0 5px 25px #00297028}
+@media(max-width:700px){aside{border-bottom:4px solid var(--cyan);padding:16px 20px}h1{font-size:28px}.tabs{gap:4px}.tabs button{font-size:13px}.stats article{padding:16px}.stats article:before{margin-bottom:12px}.badge{font-size:12px;padding:6px 8px}.intro{gap:12px}}

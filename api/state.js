@@ -1,0 +1,3 @@
+import {configured,stateFor,db,guard,fail,log} from '../lib/backend.js';
+import {validate} from '../lib/engine.js';
+export default async function handler(req,res){if(!guard(req,res))return;try{if(!['GET','POST'].includes(req.method))return res.status(405).json({error:'Method not allowed'});if(!configured())return res.json({mode:'local',ai:Boolean(process.env.GEMINI_API_KEY)});const {id,state}=await stateFor(req,res);if(req.method==='POST'){const next=validate(req.body);await db('flex_states','POST',{id,state:next});return res.json({state:next,mode:'supabase',ai:Boolean(process.env.GEMINI_API_KEY)});}return res.json({state,mode:'supabase',ai:Boolean(process.env.GEMINI_API_KEY)});}catch(e){fail(res,e);}}

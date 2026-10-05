@@ -1,0 +1,2 @@
+import {stateFor,guard,fail,log} from '../lib/backend.js';
+export default async function handler(req,res){if(!guard(req,res))return;if(req.method!=='POST')return res.status(405).json({error:'Method not allowed'});try{const {id}=await stateFor(req,res);if(!['unchanged','flexible','smaller'].includes(req.body.path)||!['saved','dismissed'].includes(req.body.action))throw Error('Invalid decision');await log(id,'decision',{path:req.body.path,action:req.body.action});res.json({ok:true,persisted:Boolean(id)});}catch(e){fail(res,e);}}
